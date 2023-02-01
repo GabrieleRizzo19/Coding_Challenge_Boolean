@@ -1,0 +1,57 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 8%;
+    border-radius: 2%;
+    padding: 4%;
+}
+
+header{
+    color: #00dd00;
+    text-align: center;
+}
+
+nav{
+    background-color: #00dd00;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.monopattino{
+    color: white;
+}
+
+.monopattino h2{
+    display: inline;
+}
+
+.monopattino #indirizzo::before{
+    content: '\21A6';
+}
+
+#charge1{
+    background-color: orange;
+    width: 25%;
+    color: orange;
+    border-radius: 5px;
+}
+
+#charge2{
+    background-color: #00dd00;
+    width: 70%;
+    color: #00dd00;
+    border-radius: 5px;
+}
+
+#charge3{
+    background-color: red;
+    width: 10%;
+    color: red;
+    border-radius: 5px;
+}
